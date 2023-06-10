@@ -30,7 +30,7 @@ function App() {
       <form className="app__searchForm" onSubmit={onSubmit}>
         <input
           type="text"
-          placeholder="Type of Ingrediant.."
+          placeholder="Enter fruit name"
           autoComplete="off"
           value={query}
           onChange={(e) => {
